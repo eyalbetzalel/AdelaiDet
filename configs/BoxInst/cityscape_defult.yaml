@@ -17,8 +17,8 @@ DATASETS:
   TRAIN: ("cityscapes_fine_instance_seg_train",)
   TEST: ("cityscapes_fine_instance_seg_val",)
 INPUT:
-  MIN_SIZE_TRAIN: (800, 830, 864, 896, 928, 960, 992, 1024)
+  MIN_SIZE_TRAIN: (32,32)
   MIN_SIZE_TRAIN_SAMPLING: "choice"
-  MIN_SIZE_TEST: 1024
-  MAX_SIZE_TRAIN: 2048
-  MAX_SIZE_TEST: 2048
+  MIN_SIZE_TEST: 32
+  MAX_SIZE_TRAIN: 64
+  MAX_SIZE_TEST: 64
