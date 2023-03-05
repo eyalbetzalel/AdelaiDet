@@ -8,6 +8,7 @@ inference_test_output
 *.png
 *.txt
 *.json
+*.out
 
 # compilation and distribution
 __pycache__
